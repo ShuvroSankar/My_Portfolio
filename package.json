@@ -29,6 +29,8 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@iconify/json": "^2.2.302",
+    "@iconify/tailwind": "^1.2.0",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
     "postcss": "^8",
