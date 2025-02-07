@@ -3,7 +3,7 @@
 import { Description } from "@radix-ui/react-dialog"
 import {FaHtml5, FaCss3,FaJs, FaReact,FaFigma,FaNodeJs } from "react-icons/fa"
 import {SiTailwindcss,SiNextdotjs } from "react-icons/si"
-import {} from "@iconify/react"
+import { Icon } from "@iconify/react" 
 
 // about data
 const about = {
@@ -87,45 +87,45 @@ const skills = {
   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   skillList: [
     {
-      icon: <span class="icon-[devicon--arduino]"></span>,
+      icon: <span className="icon-[devicon--arduino]"></span>,
       name:"Arduino",
     },
     {
-      icon: <span class="icon-[arcticons--zflasher-stm32]"></span>,
+      icon: <span className="icon-[arcticons--zflasher-stm32]"></span>,
       name:"STM32",
     },
-    // {
-    //   icon: <Icon icon="simple-icons:esphome" />,
-    //   name:"ESP32",
-    // },
-    // {
-    //   icon: <Icon icon="simple-icons:dassaultsystemes" />,
-    //   name:"Solidworks",
-    // },
-    // {
-    //   icon: <Icon icon="skill-icons:autocad-dark" /> ,
-    //   name:"AutoCAD",
-    // },
-    // {
-    //   icon: <Icon icon="simple-icons:kicad" />,
-    //   name:"KiCad",
-    // },
-    // {
-    //   icon: <Icon icon="simple-icons:proteus" />,
-    //   name:"Proteus",
-    // },
-    // {
-    //   icon: <Icon icon="logos:blender" />,
-    //   name:"blender",
-    // },
-    // {
-    //   icon: <Icon icon="logos:adobe-after-effects" />,
-    //   name:"After Effects",
-    // },
-    // {
-    //   icon: <Icon icon="file-icons:adobe-premiere" />,
-    //   name:"Premiere Pro",
-    // },
+    {
+      icon: <Icon icon="simple-icons:esphome" />,
+      name:"ESP32",
+    },
+    {
+      icon: <Icon icon="simple-icons:dassaultsystemes" />,
+      name:"Solidworks",
+    },
+    {
+      icon: <Icon icon="skill-icons:autocad-dark" /> ,
+      name:"AutoCAD",
+    },
+    {
+      icon: <Icon icon="simple-icons:kicad" />,
+      name:"KiCad",
+    },
+    {
+      icon: <Icon icon="simple-icons:proteus" />,
+      name:"Proteus",
+    },
+    {
+      icon: <Icon icon="logos:blender" />,
+      name:"blender",
+    },
+    {
+      icon: <Icon icon="logos:adobe-after-effects" />,
+      name:"After Effects",
+    },
+    {
+      icon: <Icon icon="file-icons:adobe-premiere" />,
+      name:"Premiere Pro",
+    },
     {
       icon: <FaHtml5/>,
       name:"html 5",
@@ -263,7 +263,7 @@ const Resume = () => {
           <TabsContent value="about" className="w-full text-center xl:text-left">
             <div className="flex flex-col gap-[30px]">
             <h3 className="text-4xl font-bold">{about.title}</h3>
-            <p className="max-w-[600px] text-w/60 mx-auto xl:mx-0">{about.Description}</p>
+            <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{about.Description}</p>
             <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
               {about.info.map((item,index)=>{
                 return <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
