@@ -38,7 +38,7 @@ export const projects = [
                  way, it is possible to show in the Alarm control panel information regarding temperature reading, as 
                  well as the state of the gas detector and the activation of the alarm.`,
       image: "/assets/work/Matrix Keypad Reading with the NUCLEO Board.png",
-      stack: [{name:"stm32 Nucleo Board"},{name:"Temperature Sensor"}, {name:"Gas Sensor"}, {name:"LED Light"},],
+      stack: [{name:"stm32 Nucleo Board"},{name:"LCD display"},{name:"Temperature Sensor"}, {name:"Gas Sensor"}, {name:"LED"},],
       live:"",
       github:"",
 
@@ -53,7 +53,7 @@ export const projects = [
                    means of two buttons on the Gate control panel labeled “Open” and “Close”. 
                    The LEDs (green and red) are used to indicate if the gate is opening or closing.` ,
       image: "/assets/work/Motion Detection and DC Motor Control using Relays and  Interrupts.png",
-      stack: [{name:"stm32 Nucleo Board"},{name:"Temperature Sensor"}, {name:"Gas Sensor"}, {name:"LED Light"},],
+      stack: [{name:"stm32 Nucleo Board"},{name:"PIR Sensor"}, {name:"DC Motor"}, {name:"LED"},],
       live:"",
       github:"",
 
