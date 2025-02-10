@@ -8,7 +8,7 @@ import { Icon } from "@iconify/react"
 // about data
 const about = {
   title: "About Me",
-  Description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ex, fuga labore dicta reprehenderit fugit maiores nostrum aliquid delectus.',
+  Description: 'I’m a passionate Embedded Systems Engineer with a knack for solving complex problems through innovative hardware and software solutions. With a strong foundation in electronics and programming, I specialize in designing and developing efficient, scalable, and reliable embedded systems. My work bridges the gap between hardware and software, creating seamless user experiences and cutting-edge IoT solutions.',
   info:[
     {
       fieldName: 'Name',
@@ -41,7 +41,7 @@ const about = {
 const experience = {
   icon:'',
   title: "My experience",
-  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  description: 'With hands-on experience in both academic and professional settings, I’ve worked on a variety of projects ranging from smart home automation to industrial IoT solutions. I’ve collaborated with cross-functional teams to deliver high-quality products, ensuring they meet both technical and user requirements. My experience spans firmware development, hardware prototyping, and system integration.',
   items: [
     {
       company:'Robodoc',
@@ -63,7 +63,7 @@ const experience = {
 const education = {
   icon:'',
   title: "My education",
-  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  description: 'I hold a Bachelor of Science in Electrical and Electronic Engineering (EEE) from American International University Bangladesh (AIUB), where I graduated with a focus on embedded systems and IoT. My academic journey equipped me with a solid understanding of electronics, signal processing, and system design, laying the foundation for my professional career.',
   items: [
     {
       institution:'American International University Bangladesh',
@@ -84,10 +84,10 @@ const education = {
 
 const skills = {
   title: "My skills",
-  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  description: 'I bring a diverse skill set to the table, combining technical expertise with creative problem-solving. From designing low-level firmware to developing full-stack IoT applications, I thrive on turning ideas into functional, real-world systems. My toolkit includes proficiency in C/C++, Python, RTOS, Microcontroller Programming, and PCB Design, along with a deep understanding of IoT protocols and wireless communication.',
   skillList: [
     {
-      icon: <span className="icon-[devicon--arduino]"></span>,
+      icon: <Icon icon="file-icons:arduino" />,
       name:"Arduino",
     },
     {
@@ -103,7 +103,7 @@ const skills = {
       name:"Solidworks",
     },
     {
-      icon: <Icon icon="skill-icons:autocad-dark" /> ,
+      icon: <Icon icon="simple-icons:autocad" /> ,
       name:"AutoCAD",
     },
     {
@@ -115,15 +115,15 @@ const skills = {
       name:"Proteus",
     },
     {
-      icon: <Icon icon="logos:blender" />,
+      icon: <Icon icon="file-icons:blender" />,
       name:"blender",
     },
     {
-      icon: <Icon icon="logos:adobe-after-effects" />,
+      icon: <Icon icon="iconoir:adobe-after-effects-solid" />,
       name:"After Effects",
     },
     {
-      icon: <Icon icon="file-icons:adobe-premiere" />,
+      icon: <Icon icon="basil:adobe-premiere-solid" />,
       name:"Premiere Pro",
     },
     {

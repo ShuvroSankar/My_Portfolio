@@ -8,25 +8,25 @@ const services = [
   {
     num: '01',
     title: 'Embedded and IoT System',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
+    description: 'I design and implement embedded systems and IoT solutions for smart devices and connected ecosystems. From microcontroller programming to cloud integration, I create efficient, scalable systems that enable seamless communication between devices and platforms.',
     href: ''
   },
   {
     num: '02',
     title: 'Product Design',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
+    description: 'I blend engineering principles with user-centered design to create innovative, functional, and visually appealing products. My focus is on solving real-world problems through thoughtful design and usability.',
     href: ''
   },
   {
     num: '03',
     title: '3D Design and Animation',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
+    description: 'I use 3D design tools to bring ideas to life, creating precise models and animations for prototyping and visualization. This skill enhances my ability to prototype and test embedded systems effectively.',
     href: ''
   },
   {
     num: '04',
     title: 'Web Development',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
+    description: 'I build responsive web applications that complement embedded systems, enabling seamless user interaction with IoT devices. My work ensures data from embedded systems is accessible through intuitive web interfaces.',
     href: ''
   },
 ]
